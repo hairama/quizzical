@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    color: #293264;
+    font-family: "Inter", sans-serif;
+}
+
+.yellow-triangle {
+    position: fixed; 
+    top: 0;
+    right: 0;
+    z-index: 9999; 
+    background-image: url("./SVGs/yellow-triangle.svg");
+    background-repeat: no-repeat;
+    width: 120px; 
+    height: 120px; 
+}
+
+.blue-oval {
+    position: fixed;
+    bottom: 0;  
+    left: 0;
+    z-index: 9999; 
+    background-image: url("./SVGs/blue-oval.svg");
+    background-repeat: no-repeat;
+    width: 65px;
+    height: 65px;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inter-10-24 {
+  font-family: "Inter", sans-serif;
+  font-size: 10.24px;
+  font-style: normal;
+}
+
+.karla-16-bold {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  margin: 0;
+}
+
+.start-page {
+    display: flex;
+    flex-direction: column;
+    padding: 5em; 
+    align-items: center;
+    justify-items: center;
+}
+
+.big-blue-button {
+    border-radius: 11px;
+    padding: .75rem 3rem;
+    border: none;
+    background-color: #4D5B9E;
+    color: white;
+    font-weight: 300;
+}
+
+.small-blue-button {
+    border-radius: 10px;
+    border: none;
+    width: 120px;
+    height: 35px;
+    background-color:#4D5B9E;
+    color: white;
+    font-weight: 500;
+}
+
+.multiple-question-container {
+    margin: 25px auto 14px auto;
+    width: 400px;
+}
+
+.single-question-container {
+    border-bottom: 0.8px solid #D6DBF5;
+    margin-top: 10px;
+}
+
+.answer-container {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin: 2px auto 6px 0px;
+}
+
+.answer {
+    padding: 0.5em 8px;
+    margin: 6px 0px;
+    min-width: 60px;
+    border-radius: 7.71px;
+    border: .8px solid #4D5B9E;
+    color: #293264;
+}
+
+.selected {
+    background-color: #D6DBF5;
+    border: none;
+    color: #293264;
+}
+
+.incorrect {
+    background: #F8BCBC;
+    border: none;
+    color: #29326480;
+}
+
+.not-selected {
+    color: #29326480;
+    border-color: #4D5B9E80;
+    background-color: transparent;
+}
+
+.correct {
+    background: #94D7A2;
+    color: #293264;
+}
+
+.score-section {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-size: 12.8px;
+    font-weight: bold;
+}
