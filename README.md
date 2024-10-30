@@ -3,8 +3,7 @@
 ## *Overview* 🧐
 This project is part of the **"React Basics"** module from the [**Frontend Career Path**](https://v2.scrimba.com/the-frontend-developer-career-path-c0j) course on [**Scrimba**](https://v2.scrimba.com/home).
 
-Quizzical is a React-based trivia game that leverages the [Open Trivia Database API](https://opentdb.com/api_config.php)
-The Password Generator offers many of the same essential functions as: **1Password**, **Apple Keychain**, or **bitwarden**: The ability to create random passwords, up to 128 characters, to include/exclude special symbols or numbers, and "click-to-copy" for any password you create.
+Quizzical is a React-based trivia game that leverages the [Open Trivia Database API](https://opentdb.com/api_config.php) to test players knowledge of everything from Ancient Greek Mythology, to Video Games.
 
 ![Password Generator](./quizzical-demo.gif)
 
